@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web para una cafetería">
+    <title>Cafetería - Tu espacio de café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+<header>
+    <div class="logo">
+        <img src="Iconos/cafe.png" alt="Cafecito">
+        <span>CAFECITO</span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Menú</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Bienvenido a nuestra Cafetería</h1>
+        <p class="hero-text">El mejor café para tus mejores momentos.</p>
+    </section>
+
+    <!-- Formulario de Contacto -->
+  <div class="form-container">
+    <h2>Ingresá</h2>
+    <p>Registrate para recibir regalitos y descuentos exclusivos</p>
+    <div class="form-fields">
+        <input type="email" placeholder="Ingresa tu email">
+        <select>
+            <option value="uruguay">Uruguay</option>
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+        </select>
+        <button>Enviar</button>
+    </div>
+</div>
+
+         <!-- Galería de Imágenes -->
+    <section class="gallery">
+        <div class="gallery-item"><img src="Img/gallery1.jpg" alt="Imagen 1"></div>
+        <div class="gallery-item"><img src="Img/gallery2.jpg" alt="Imagen 2"></div>
+        <div class="gallery-item text-item">
+            <img src="Img/blog-2.jpg" alt="Imagen 3">
+            <h2>NOSOTROS</h2>
+            <button>Ver mas</button>
+        </div>
+        <div class="gallery-item text-item">
+            <img src="Img/gallery4.jpg" alt="Imagen 4">
+            <h2>Momentos que se comparten</h2>
+            <p>Un espacio para disfrutar de sabores únicos y momentos inolvidables.</p>
+        </div>
+        <div class="gallery-item"><img src="Img/gallery5.jpg" alt="Imagen 5"></div>
+        <div class="gallery-item"><img src="Img/moca-category.jpg" alt="Imagen 6"></div>
+    </section>
+  
+     <!-- Sección de Artículos -->
+   <section class="articles">
+    <h2>Productos</h2>
+    <div class="articles-grid">
+        <article>
+            <div class="article-badge">OFERTA</div>
+            <img src="Img/cafe-australiano.jpg" alt="Imagen">
+            <h3>Cafe australiano</h3>
+            <p>Contiene cafeína, una sustancia que ayuda a quemar grasas y a mantenerte despierto, al igual que aumenta los niveles de adrenalina.</p>
+            <button>AGREGAR</button>
+        </article>
+        <article>
+            <div class="article-badge">OFERTA</div>
+            <img src="Img/cafe-helado.jpg" alt="Imagen">
+            <h3>Cafe helado</h3>
+            <p>Un café helado es, básicamente, una versión fría de tu café favorito.</p>
+            <button>AGREGAR</button>
+        </article>
+        <article>
+            <div class="article-badge">OFERTA</div>
+            <img src="Img/cafe-ingles.jpg" alt="Imagen">
+            <h3>Cafe ingles</h3>
+            <p>El "café inglés" se asocia con el café casero y una experiencia gourmet, a menudo consumido en cafeterías o en casa.</p>
+            <button>AGREGAR</button>
+        </article>
+        <article>
+            <img src="Img/cafe-irish.jpg" alt="Imagen">
+            <h3>Cafe irish</h3>
+            <p>Este sencillo cóctel caliente se prepara con café negro, azúcar, whisky irlandés y una capa de crema para finalizar.</p>
+            <button>AGREGAR</button>
+        </article>
+        <article>
+            <img src="Img/cafe-liqueurs.jpg" alt="Imagen">
+            <h3>Cafe mocca</h3>
+            <p>Bebida a base de café que combina los sabores de espresso, leche vaporizada y chocolate.</p>
+            <button>AGREGAR</button>
+        </article>
+    </div>
+</section>
+
+
+    <!-- Footer Redes Sociales -->
+ <footer class="footer">
+    <div class="social-container">
+        <h2>Redes sociales</h2>
+        <div class="social-links">
+            <a href="#"><img src="Iconos/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="Iconos/gorjeo.png" alt="Twitter"></a>
+            <a href="#"><img src="Iconos/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="Iconos/whatsapp.png" alt="WhatsApp"></a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
